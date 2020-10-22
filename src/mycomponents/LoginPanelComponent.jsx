@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import image from '../logo.svg'
+import FooterComponent from '../pagecomponent/FooterComponent';
 
 class LoginPanelComponent extends Component {
 
@@ -43,7 +44,7 @@ class LoginPanelComponent extends Component {
                 <div className="container">
                     <div >
                     <div className="text-center">
-                        <img src={image} width="70" height="70" />
+                        <img src="/images/user.png" width="70" height="70" />
                     </div>
                     <h3 className="text-center">Login Panel</h3>
                     
@@ -70,6 +71,7 @@ class LoginPanelComponent extends Component {
 
                         </div>
                     </div>
+                  
                 </div>
                 
             </div>

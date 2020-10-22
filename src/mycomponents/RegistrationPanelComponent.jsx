@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from '../logo.svg'
+
 import DatePicker from 'react-date-picker'
 
 class RegistrationPanelComponent extends Component {
@@ -44,7 +44,7 @@ class RegistrationPanelComponent extends Component {
                 <div className="container">
                     <div >
                         <div className="text-center">
-                            <img src={image} width="70" height="70" />
+                            <img src="/images/user.png" width="70" height="70" />
                         </div>
                         <h3 className="text-center">Registration Panel</h3>
 

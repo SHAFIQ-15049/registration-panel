@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  color: white;
+}
+
+.split {
+  height: 82%;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  width: 15%;
+  background-color : white;
+  border-right: 2px solid black;
+  text-align: center;
+  font-size: x-small;
+}
+.right {
+  right: 0;
+  width: 85%;
+  background-color : white;
+  text-align: center;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
